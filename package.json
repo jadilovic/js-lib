@@ -1,5 +1,5 @@
 {
-	"name": "js-lib",
+	"name": "@j.adilovic/js-lib",
 	"version": "1.0.0",
 	"description": "Node App",
 	"main": "index.js",
