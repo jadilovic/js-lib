@@ -1,18 +1,16 @@
 {
 	"name": "js-lib",
 	"version": "1.0.0",
-	"description": "TS Node App",
+	"description": "Node App",
 	"main": "index.js",
 	"scripts": {
-		"compile": "tsc && tsc --build tsconfig.es5.json",
-		"clean": "rd /s /q esm dist lib .cache>nul 2>&1|echo.>nul"
+		"dev": "node index.js"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/jadilovic/js-lib.git"
 	},
 	"keywords": [
-		"TS",
 		"Node"
 	],
 	"author": "Jasmin Adilovic",
@@ -20,8 +18,5 @@
 	"bugs": {
 		"url": "https://github.com/jadilovic/js-lib/issues"
 	},
-	"homepage": "https://github.com/jadilovic/js-lib#readme",
-	"devDependencies": {
-		"typescript": "^5.1.6"
-	}
+	"homepage": "https://github.com/jadilovic/js-lib#readme"
 }
